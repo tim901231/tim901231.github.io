@@ -1,12 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Title</title>
-    <link rel="stylesheet" href="./main.css" />
-  </head>
-  <body>
-    <h1>Hi</h1>
-  </body>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>MY BLOG</b></h1>
+  <p>Welcome to the blog of <span class="w3-tag">Tsai</span></p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="https://ichemepresident.files.wordpress.com/2015/03/chemical-bond.jpg?w=825&h=510&crop=1" alt="Nature" style="width:100%">
+    <div class="w3-container">
+      <h3><b>今天上化學課</b></h3>
+      <h5>一堂一心二用的化學課, <span class="w3-opacity">October 30, 2020</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Chemical bonds : Forces that hold groups of atoms together
+and make the atoms function as a unit.
+
+Chemical bonding can be recognized from numerous types of 
+experiments:</p>
+ <p>1. study physical properties such as melting point, hardness,
+      electrical and thermal conductivity, solubility, etc.
+</p><p>
+  2. determining the charge distribution in an applied electric field.
+</p><p>
+  3. obtaining the bond strength by measuring the energy required
+      to break the bond, i.e. the bond energy.
+</p><p>
+※4.The study of the interactions of electromagnetic radiation 
+      with matter gives a wealth of information about molecular 
+      structure and energy spacings. (資料來源:周必泰老師ppt)
+</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="/w3images/bridge.jpg" alt="Norway" style="width:100%">
+    <div class="w3-container">
+      <h3><b>第一篇文</b></h3>
+      <h5>不知道該說些什麼, <span class="w3-opacity">October 15, 2020</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>分享一下很酷的量子計算</p>
+      <p>Quantum computing is the use of quantum phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.:I-5 Quantum computers are believed to be able to solve certain computational problems, such as integer factorization (which underlies RSA encryption), substantially faster than classical computers. The study of quantum computing is a subfield of quantum information science.
+</p><p>
+Quantum computing began in the early 1980s, when physicist Paul Benioff proposed a quantum mechanical model of the Turing machine. Richard Feynman and Yuri Manin later suggested that a quantum computer had the potential to simulate things that a classical computer could not. In 1994, Peter Shor developed a quantum algorithm for factoring integers that had the potential to decrypt RSA-encrypted communications. Despite ongoing experimental progress since the late 1990s, most researchers believe that "fault-tolerant quantum computing is still a rather distant dream." In recent years, investment into quantum computing research has increased in both the public and private sector. On 23 October 2019, Google AI, in partnership with the U.S. National Aeronautics and Space Administration (NASA), claimed to have performed a quantum computation that is infeasible on any classical computer.
+</p><p>
+There are several models of quantum computing, including the quantum circuit model, quantum Turing machine, adiabatic quantum computer, one-way quantum computer, and various quantum cellular automata. The most widely used model is the quantum circuit. Quantum circuits are based on the quantum bit, or "qubit", which is somewhat analogous to the bit in classical computation. Qubits can be in a 1 or 0 quantum state, or they can be in a superposition of the 1 and 0 states. However, when qubits are measured the result of the measurement is always either a 0 or a 1; the probabilities of these two outcomes depend on the quantum state that the qubits were in immediately prior to the measurement.
+</p><p>
+There are various approaches to implementing quantum computers, for example quantum simulation, quantum annealing and adiabatic quantum computation. Technologies such as transmons, ion traps and topological quantum computers use quantum logic gates for their computations. All these approaches use qubits.There are currently a number of significant obstacles in the way of constructing useful quantum computers. In particular, it is difficult to maintain the quantum states of qubits as they suffer from quantum decoherence and state fidelity. Quantum computers therefore require error correction.
+</p><p>
+Any computational problem that can be solved by a classical computer can also be solved by a quantum computer. Conversely, quantum computers obey the Church–Turing thesis; that is, any problem that can be solved by a quantum computer can also be solved by a classical computer, at least in principle given enough time. While this means that quantum computers provide no additional advantages over classical computers in terms of computability, they do enable the design of algorithms for certain problems that have significantly lower time complexities than known classical algorithms. Notably, quantum computers are believed to be able to quickly solve certain problems that no classical computer could solve in any feasible amount of time—a feat known as "quantum supremacy." The study of the computational complexity of problems with respect to quantum computers is known as quantum complexity theory.(資料來源:維基百科)</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="https://stickershop.line-scdn.net/stickershop/v1/product/1200860/LINEStorePC/main.png;compress=true" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>About Me</b></h4>
+      <p>蔡仲廷。109台灣大學電機工程學系。興趣是看小說，最近在努力學習電腦。心情:期中考要到了有點緊張</p>
+    </div>
+  </div><hr>
+  
+  <!-- Posts -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Popular Posts</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQHFcGWPLWCyZg/company-logo_200_200/0?e=2159024400&v=beta&t=tBDzaOuTmZydRq5dYL9D_M2S_UF0IqOVdvg0TBMfdh4" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">House</span><br>
+        <span>exploring!!!</span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="https://media.istockphoto.com/vectors/night-office-place-computer-on-the-desk-vector-id505746050" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">My room</span><br>
+        <span>Go study!!!</span>
+      </li> 
+      <li class="w3-padding-16">
+        <img src="data:image/jpeg;base64,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" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Reading novel</span><br>
+        <span>萬族之劫好讚</span>
+      </li>   
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="https://previews.123rf.com/images/ms10/ms101504/ms10150400019/38567370-abstract-colorful-running-man.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Exercise</span><br>
+        <span>連續兩次賴床沒去健身房</span>
+      </li>  
+    </ul>
+  </div>
+  <hr> 
+ 
+  <!-- Labels / tags -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Tags</h4>
+    </div>
+    <div class="w3-container w3-white">
+    <p><span class="w3-tag w3-black w3-margin-bottom">Chemical</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Taiwan</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NTU</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Taipei</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Quantum</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">EE</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Homeworl</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Knowledge</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">CS</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Study</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Bonds</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Cool</span>
+    </p>
+    </div>
+  </div>
+  
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
+  <p>使用模板 <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
 </html>
