@@ -1,0 +1,13 @@
+/* unvisited link */
+a:link {
+    color: #000000;
+  }
+  
+  /* mouse over link */
+  /* 必須在 link, visited 之後！ */
+  a:hover {
+    color: #FF0000;
+  }
+  
+}
+
